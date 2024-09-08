@@ -1,0 +1,13 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir" : "build",
+        "target" : "ES6",
+        "lib" : ["ES6"],
+        "strict": true,
+        "esModuleInterop": true,
+        "module": "CommonJS"
+    }
+    //타입스크립트는 컴파일러이기 때문에, index.ts를 자바스크립트로 컴파일시킴. 그래서 자바스크립트 파일을 어디에 만들어야하는지 명시하는데, 그걸 build 폴더에 할거라고 작성해주는 것.
+    //target은 컴파일 할 자바스크립트의 버전을 명시하는 것
+}
